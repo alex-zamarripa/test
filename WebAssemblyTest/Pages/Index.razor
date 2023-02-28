@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<h4>Date test</h4>
+<h6>@($"Date: {_dateTime:R}")</h6>
+
+<SurveyPrompt Title="How is Blazor working for you?"/>
+
+@code
+{
+    private DateTime _dateTime;
+
+    protected override void OnInitialized()
+    {
+        _dateTime = DateTime.Now;
+    }
+}
