@@ -1,0 +1,7 @@
+{
+  "LatestVersion": "1.0.0",
+  "IsCritical": true,
+  "ReleaseNotes": "Lanzamiento inicial",
+  "DownloadUrl": "https://tu-dominio-o-cdn.com/releases/myapp-v1.2.5.msix",
+  "ChecksumSha256": "4b97d19e984d7a8d5e8f6e2c3a5b4d7f8c9b0e1d2f3g4h5i6j7k8l9m0n1o2p3q"
+}
